@@ -8,61 +8,185 @@ a{
 ol{
     list-style: none;
 }
-.header-logo-decor{
-    color: #2E2F42;
-        font-family: "Raleway", sans-serif;
-        font-size: 18px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: 21px;
-        width: 44px;
-        letter-spacing: 0.54px;
-        text-transform: uppercase;
-}
-.logo{
+.logo {
     color: #4D5AE5;
-    font-family: Raleway, sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 18px;
-    font-style: normal;
     font-weight: 700;
-    line-height: 21px;
-    letter-spacing: 0.54px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
 }
-.asddres{
-    color:#434455;
-        font-family: Roboto;
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 24px;
-        letter-spacing: 0.32px;
-}
-.header-navigation-link{
+
+.logo-part {
     color: #2E2F42;
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: 24px;
-        letter-spacing: 0.32px;
-        font-family: 'Roboto', sans-serif;
-        
 }
-.hero-swction{
-    background-color: #2E2F42;
+
+
+
+.header-link {
+    color: #2E2F42;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
-.hero-title{
+
+.header-link:hover,
+.header-link:focus {
+    color: #404BBF;
+}
+
+.address {
+    font-style: normal;
+}
+
+.address-link {
+    color: #434455;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.address-link:hover,
+.address-link:focus {
+    color: #404BBF;
+}
+
+.solutions {
+    background: #2E2F42;
+}
+
+.solutions-title {
     color: #FFF;
-        text-align: center;
-        font-family: "Roboto",sans-serif;
-        font-size: 56px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: 60px;
-        letter-spacing: 1.12px;
+    text-align: center;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
 }
-.hero-button{
-    background-color: #404bbf;
+
+.solutions-btn {
+    font-family: 'Roboto', sans-serif;
+    background: #4D5AE5;
     color: #FFF;
-    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+}
+
+.solutions-btn:hover,
+.solutions-btn:focus {
+    background: #404BBF;
+
+}
+
+
+.spdt {
+    background: #FFF;
+}
+
+.advantages-title {
+    color: #2E2F42;
+    text-align: center;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+
+
+.spdt-title {
+    color: #2E2F42;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.spdt-text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+
+.ourteam {
+    background: #F4F4FD;
+}
+
+.ourteam-title {
+    color: #2E2F42;
+    text-align: center;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+.ourteam-item {
+    background: #FFF;
+}
+
+.ourteam-title-three {
+    color: #2E2F42;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+.ourteam-text {
+    color: #434455;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+
+.portfolio-title {
+    color: #2E2F42;
+    text-align: center;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+.portfolio-title-three {
+    color: #2E2F42;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+.portfolio-text {
+    color: #434455;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+.footer {
+    background: #2E2F42;
+}
+
+.logo-footer {
+    color: #4D5AE5;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.logo-footer-part {
+    color: #F4F4FD;
+}
+
+
+.footer-text {
+    color: #F4F4FD;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
